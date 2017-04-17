@@ -15,7 +15,7 @@ class Person2
 		@age = age
 	end
 	def age_to_minutes
-		puts age_in_minutes = @age * 60
+		puts age_in_minutes = @age *365*24*60
 	end
 end
 

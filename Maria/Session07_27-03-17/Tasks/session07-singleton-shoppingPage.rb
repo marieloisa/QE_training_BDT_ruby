@@ -47,7 +47,14 @@ class Shopping
 	end
 end
 
+def singleton_example
+	@singleton_example ||= Shopping
+end
 
-p = Shopping.new
-p.buy_item
-p.calculate_total
+
+#p = Shopping.new
+#p.buy_item
+#p.calculate_total
+
+singleton_example.buy_item
+singleton_example.calculate_total

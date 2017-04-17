@@ -16,6 +16,7 @@ class MyCar
 	end
 
 	def car_off
+		@current_sped = 0
 		puts "The car has off"
 	end
 end
